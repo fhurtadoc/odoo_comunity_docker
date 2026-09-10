@@ -10,9 +10,9 @@ Centralización de credenciales: Se eliminaron las credenciales hardcodeadas den
 2. Requisito Fundamental: Archivo .env
 Es estrictamente obligatorio crear un archivo llamado .env en el mismo directorio donde se encuentra el archivo docker-compose.yml. Este archivo define las credenciales secretas y parámetros de conexión para PostgreSQL y Odoo.
 Ejemplo de contenido para el archivo .env:
-POSTGRES_DB=postgres
-POSTGRES_USER=odoo
-POSTGRES_PASSWORD=Mathi142014
+POSTGRES_DB=""
+POSTGRES_USER=""
+POSTGRES_PASSWORD=""
 3. Archivo docker-compose.yml
 A continuación se presenta la estructura final y limpia de docker-compose.yml utilizando las variables del archivo .env:
 services:
